@@ -1,0 +1,39 @@
+{
+  "name": "portfolio-part2",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.jsx"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
+node_modules/
+dist/
+.env
+.vscode/
+.DS_Store
+# Developer Portfolio — Part 2 (Interactive)
+
+This project implements **Part 2** of the "React Deeper: Build Your Developer Portfolio" assignment.
+It includes:
+- Controlled contact form with debounced email validation and autosave (localStorage)
+- Live preview and toast + confetti on submit
+- Feedback wall with rating cards and featured badge
+- Projects section with filters, detail toggles, and hover animations
+- Theme toggle (Light / Dark / Ocean) persisted in localStorage
+- Simulated polling updates displayed in a scrolling ticker
+- Small interactive extras: avatar, animations, responsive layout
+
+## Run locally
+1. Install dependencies:
+   ```bash
+   npm install
